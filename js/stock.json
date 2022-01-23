@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulgogui",
+    "descripcion": "Salteado de carne marinada en salsa de soja y verduras + Arroz",
+    "img": "./img/bulgogi.png",
+    "precio": 780,
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Yakimeshi de mar",
+    "descripcion": "Salteado de arroz con vegetales, camarones, kanikama y calamar",
+    "img": "./img/yakimeshi.png",
+    "precio": 850,
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Yakisakana",
+    "descripcion": "Salmón a la plancha con salsa teriyaki, arroz y ensalada",
+    "img": "./img/yakisakana.png",
+    "precio": 750,
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Katsudon",
+    "descripcion": "Milanesa de cerdo con huevo, sobre colchon de arroz",
+    "img": "./img/katsudon.png",
+    "precio": 900,
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Yasai Itamae",
+    "descripcion": "Vegetales al wok, con guanición de arroz",
+    "img": "./img/yasaiItame.png",
+    "precio": 800,
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Kung Pao",
+    "descripcion": "Pollo salteado con picante, verduras y arroz",
+    "img": "./img/kungPao.png",
+    "precio": 950,
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Chow Fan",
+    "descripcion": "Arroz salteado con huevo y pollo, carne o cerdo",
+    "img": "./img/chowFan.png",
+    "precio": 860,
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Kimchi Bocumbab",
+    "descripcion": "Arroz salteado con kimchi, carne y un huevo frito",
+    "img": "./img/kimchiBocumbab.png",
+    "precio": 930,
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Tangsuyuk",
+    "descripcion": "Carne de cerdo rebozado salteado con cebolla, morrón y zanahoria",
+    "img": "./img/tangsuyuk.png",
+    "precio": 990,
+    "cantidad": 1
+  },
+  {
+    "id": 10,
+    "nombre": "Okonomiyaki",
+    "descripcion": "\"Pizza\" japonesa. Puede ser de verduras, mariscos o carne",
+    "img": "./img/okonomiyaki.png",
+    "precio": 680,
+    "cantidad": 1
+  },
+  {
+    "id": 11,
+    "nombre": "Tteokbokki",
+    "descripcion": "Pasteles de arroz picantes con salsa de soja",
+    "img": "./img/tteokbokki.png",
+    "precio": 740,
+    "cantidad": 1
+  },
+  {
+    "id": 12,
+    "nombre": "Bibimbap",
+    "descripcion": "Arroz blanco, carne, salsa de soja y huevo frito.",
+    "img": "./img/bibimbap.png",
+    "precio": 900,
+    "cantidad": 1
+  }
+]

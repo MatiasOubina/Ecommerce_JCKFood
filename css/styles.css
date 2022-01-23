@@ -1,0 +1,304 @@
+@font-face{
+    font-family: 'Another Shabby';
+    src: url(../font/Anothershabby_trial.woff) format('woff');
+}
+
+body{
+    background: linear-gradient(135deg, #c0261a 50%, #b02017 50%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul li{
+    margin: 0 8px;
+    
+}
+
+.navbar{
+    border-bottom: 2px solid #F1A434;
+}
+
+.navbar-toggler-icon{
+    background-color: #F1A434;
+    color: black;
+    margin-top: 10px;
+    font-family: "Another Shabby";
+    
+}
+
+.navbar-toggler{
+    background-color: #F1A434;
+    border-color: #F1A434;
+}
+
+.logo, h2{
+    font-family: "Another Shabby";
+    text-transform: uppercase;
+}
+
+.logo>a>span, h2>span{
+    color: #F1A434;
+}
+
+.logo>a{
+    color: white;
+}
+
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0px 10px 0px 10px;
+    border: 1px solid #F1A434;
+}
+
+.nav-link:hover{
+    border-radius: 10px 0px 10px 0px;
+    background-color: #F1A434;
+    color: white;
+}
+
+.fa-shopping-basket{
+    font-size: 30px;
+    color: white;
+}
+
+.fa-shopping-basket:hover{
+    background-color:  #F1A434;
+}
+
+
+#avisoCompra{
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+
+
+h2{
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+#productos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.tarjetasProductos{
+    justify-self: center;
+}
+
+.card{
+    background-color: #F1A434;
+    color: black;
+}
+
+.btnProd{
+    background: linear-gradient(135deg, #c0261a 50%, #b02017 50%);
+    border: none;
+}
+
+
+
+.misCompras{
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 83px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.btnClose{
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(135deg, #c0261a 50%, #b02017 50%);
+    cursor: pointer;
+}
+
+span>.fa-times-circle{
+    color: #F1A434;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.fa-times-circle:hover{
+    color: white;
+}
+
+.fa-trash{
+    font-size: 20px;
+}
+
+.fa-trash:hover{
+    color: #c0261a;
+}
+
+.muestraTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#totalCompra{
+    font-weight: bold;
+}
+
+#btn-comprar{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.loading{
+    width: 60%;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 h6{
+    margin-bottom: 20px;
+}
+
+.box2 p{
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.box3{
+    font-weight: bold;
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+footer{
+    margin-top: 100px;
+    border-top: 2px solid #F1A434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter{
+    margin-top: 15px;
+}
+
+footer>p{
+    color: white;
+}
+
+p>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #3e549a;
+   
+}
+
+p>a:hover{
+    background: none;
+    color: #F1A434;
+    cursor: pointer;
+}
+
+
+
+
+.swal-modal{
+    background-color: azure;
+}
+
+.swal-title, .swal-text{
+    font-weight: bold;
+}
+
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #4962B3;
+    font-size: 12px;
+    border: 1px solid #3e549a;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+
+.far, .fab{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 425px){
+    .misCompras{
+        width: 100%;
+        position: absolute;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #productos{
+        grid-template-columns: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        float: right;
+        width: 100%;
+    }
+    .nav-item{
+        width: 95%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #productos{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    #productos{
+        grid-template-columns: 32% 32% 32%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    #productos{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+
