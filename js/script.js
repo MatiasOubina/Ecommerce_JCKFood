@@ -42,6 +42,14 @@ function cargarProductos(){
 
         $(`#producto${indice}`).click( () => {
             agregarComida(comida.id);
+            Toastify({
+                text: "Producto Agregado!",
+                className: "info",
+                style: {
+                  background: "linear-gradient(to right, #00b09b, #96c93d)",
+                }
+              }).showToast();
+
         })
     })
 }
