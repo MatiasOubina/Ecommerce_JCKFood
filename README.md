@@ -1,9 +1,7 @@
-# Simulador carrito de compras
+# Simulador E-commerce
 
-Desarrollo de sitio web donde se puede realizar un pedido.
+Demo: https://matiasoubina.github.io/simuladorCarritoCompras/
 
-Uso de Bootstrap para maquetado del sitio.
+Desarrollo de un sitio web donde se puede realizar un pedido.
 
-Funcionalidad del proceso de compra realizado 100% con JavaScript
-
-Link de la Web: https://matiasoubina.github.io/simuladorCarritoCompras/
+Tecnologías utilizadas: HTML - CSS3 - BOOTSTRAP - JAVASCRIPT 
